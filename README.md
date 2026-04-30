@@ -1,4 +1,4 @@
-```mermeid
+```mermaid
 graph LR
     %% 액터 정의
     User((고객))
