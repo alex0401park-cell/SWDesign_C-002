@@ -32,10 +32,10 @@ graph LR
     Admin --- UC_RegFlight
 
     %% 예약 기능의 필수 포함(Include) 관계
-    UC_Reserve -. "<<include>>" .-> UC_Auth
-    UC_Reserve -. "<<include>>" .-> UC_InqFlight
+    UC_Reserve -. "«include»" .-> UC_Auth
+    UC_Reserve -. "«include»" .-> UC_InqFlight
 
     %% 구매 기능의 필수 포함(Include) 관계
-    UC_Purchase -. "<<include>>" .-> UC_Auth
-    UC_Purchase -. "<<include>>" .-> UC_InqReserve
-    UC_Purchase -. "<<include>>" .-> UC_InqMile
+    UC_Purchase -. "«include»" .-> UC_Auth
+    UC_Purchase -. "«include»" .-> UC_InqReserve
+    UC_Purchase -. "«include»" .-> UC_InqMile
